@@ -2,6 +2,7 @@ package EPUB::Filter;
 use 5.008005;
 use strict;
 use warnings;
+use parent qw/ EPUB::Parser /;
 
 our $VERSION = "0.01";
 
